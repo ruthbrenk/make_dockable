@@ -1,0 +1,1 @@
+SELECT p.prot_id, prot_smiles FROM purchasable.protonated_smiles p left join purchasable.tautomerized_smiles t on p.prot_id = t.prot_id where t.prot_id is null

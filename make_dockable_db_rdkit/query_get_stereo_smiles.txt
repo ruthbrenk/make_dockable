@@ -1,0 +1,1 @@
+SELECT stereoisomer_smiles.stereo_id, stereo_smiles FROM stereoisomer_smiles where stereo_blob is null

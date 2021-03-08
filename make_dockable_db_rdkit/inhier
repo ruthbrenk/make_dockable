@@ -1,0 +1,44 @@
+#This is what the new input file for mol2db looks like
+
+#Proceedures
+protein                   No
+equalize_charges          No
+solvation_correction      Yes
+color_atoms               Yes
+output_color_table        Yes 
+translate_coordinates     No
+hierarchy_spacing         No
+torque_hydrogens          Yes
+
+#I/O
+#mol2_file_list            filelist
+mol2_file                 temp.mol2
+db_file                   temp.db
+solvation_table           temp.solv
+color_table
+donor N.X
+donor N.4
+donor N.pl3
+donor C.2 1 N.X
+donor N.2 1 H
+donor N.am 1 H
+donor N.pl3 1 H
+donor O.3 1 H
+donor N.ar 1 H
+donor O.3 1 H
+acceptor O.X
+acceptor O.co2
+acceptor O.2
+acceptor N.ar
+acceptor O.3
+acceptor S.2
+acceptor N.2 -1 H
+acceptor N.ar -1 H
+acceptor N.ar -1 C.3
+acceptor O.X -1 N.2
+acceptor C.2 1 O.X
+acceptor P.3 1 O.X
+acceptor P.3 1 O.co2
+acceptor S.o2 1 O.X
+acceptor S.o2 1 O.co2
+default_color neutral

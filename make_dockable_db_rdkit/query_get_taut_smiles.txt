@@ -1,0 +1,1 @@
+SELECT t.taut_id, taut_smiles FROM purchasable.tautomerized_smiles t left join stereoisomer_smiles s on t.taut_id = s.taut_id where s.taut_id is null

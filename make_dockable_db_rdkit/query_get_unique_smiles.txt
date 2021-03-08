@@ -1,0 +1,1 @@
+SELECT u.id, unique_smiles FROM purchasable.unique_compounds u left join purchasable.protonated_smiles p on p.id = u.id where p.id is null
